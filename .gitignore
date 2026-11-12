@@ -1,0 +1,53 @@
+# Build outputs
+[Oo]bj/
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+.project.lock.json
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ide
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary / local files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Test results / coverage
+TestResults/
+coverage/
+*.trx
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Local tool cache
+/.tools/
+/.local/
